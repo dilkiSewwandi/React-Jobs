@@ -1,8 +1,18 @@
-# React + Vite
+# React Jobs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A job listings front end built with React, React Router and Tailwind CSS on Vite, made while learning React (2024).
 
-Currently, two official plugins are available:
+## Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home:** hero section, cards for developers and employers, and the three most recent listings
+- **Jobs:** placeholder route for the full listings page
+- **404:** a not-found page for unknown routes
+
+Job data comes from [`src/jobs.json`](src/jobs.json).
+
+## Running
+
+```bash
+npm install
+npm run dev
+```
